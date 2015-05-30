@@ -19,7 +19,7 @@ public class PortfolioManager {
 		date1.setDate(15);
 		Stock stock = new Stock("PIH",(float) 10.0,(float) 8.5, date1,20);
 		myPortfolio.addStock(stock);
-		/*myPortfolio.buyStock(stock, 20);*/
+		myPortfolio.buyStock(stock, 20);
 			
 
 		stock = new Stock("AAL",(float) 30.0,(float) 25.5,date1,30);
